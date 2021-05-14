@@ -1,3 +1,6 @@
+#open source
+#by-Swapnil
+
 from openpyxl import Workbook, load_workbook
 import numpy as np
 
@@ -51,18 +54,4 @@ class Extractor:
 
 
     
-
-# location = str(input("Absolute Location Workbook: "))
-# print(load_workbook(location).sheetnames)
-
-# worksheet = str(input("Sheet-Name: "))
-
-# column_name = str(input("Column: [example: A or B or C..]  "))
-# start = int(input("Row Start Number[Look in your Exel]: "))
-# end = int(input("Row End Number[Exclude column name]: "))
-
-# extractor_bot = Extractor(location,worksheet,column_name,start,end)
-
-# data = np.array(extractor_bot.run_Extractor())
-
-# print(data)
+#end
